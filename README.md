@@ -63,10 +63,6 @@ python app.py
 
 Tarayıcınızda **http://localhost:5000** adresine gidin.
 
-## 📸 Ekran Görüntüleri
-
-*(Buraya projenin arayüzünden ekran görüntüleri eklenebilir)*
-
 ## 🤝 Katkıda Bulunma
 
 Katkılarınız memnuniyetle karşılanır! Lütfen önce bir "Issue" açarak neyi değiştirmek istediğinizi tartışın.
