@@ -18,7 +18,7 @@ from langchain_core.documents import Document
 # CONFIGURATION
 
 OLLAMA_BASE_URL = "http://localhost:11434"
-OLLAMA_MODEL = "jarvis:latest"
+OLLAMA_MODEL = "BURAYA-KENDİ-OLLAMA-MODELİNİZİN-TAM-ADINI-GİRİN." #burda ollama'dan indirdiğiniz kendi sisteminize uygun trained modeli ekleyiniz.
 CHROMA_PERSIST_DIR = "./chroma_db"
 EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 CHUNK_SIZE = 1000
