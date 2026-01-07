@@ -65,7 +65,10 @@ Tarayıcınızda **http://localhost:5000** adresine gidin.
 
 ## 📸 Ekran Görüntüleri
 
-<img width="1916" height="905" alt="Ekran görüntüsü 2026-01-07 202915" src="https://github.com/user-attachments/assets/4c7f42ed-bb02-449d-94d1-0c940472e38c" />
+<img width="1064" height="292" alt="1" src="https://github.com/user-attachments/assets/439d3e6f-5c05-4944-883e-fae2b1f6113d" />
+
+<img width="1918" height="909" alt="2" src="https://github.com/user-attachments/assets/69a3a361-13f4-4455-b7bb-f03d0fd40c8e" />
+
 
 ## 🤝 Katkıda Bulunma
 
