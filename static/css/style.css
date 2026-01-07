@@ -712,3 +712,9 @@ body {
         opacity: 1;
     }
 }
+.hata {
+    color:#80848a;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
