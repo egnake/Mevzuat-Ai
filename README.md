@@ -82,7 +82,7 @@ Katkılarınız memnuniyetle karşılanır! Lütfen önce bir "Issue" açarak ne
 **Ege Parlak (egnake)**
 
 *   GitHub: [@egnake](https://github.com/egnake)
-*   LinkedIn: [Ege Parlak](https://linkedin.com/in/egeparlak)
+*   LinkedIn: [Ege Parlak](https://www.linkedin.com/in/ege-parlak-7b860b332/)
 
 ## 📄 Lisans
 
