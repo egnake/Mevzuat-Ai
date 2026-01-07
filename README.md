@@ -63,6 +63,10 @@ python app.py
 
 Tarayıcınızda **http://localhost:5000** adresine gidin.
 
+## 📸 Ekran Görüntüleri
+
+<img width="1916" height="905" alt="Ekran görüntüsü 2026-01-07 202915" src="https://github.com/user-attachments/assets/4c7f42ed-bb02-449d-94d1-0c940472e38c" />
+
 ## 🤝 Katkıda Bulunma
 
 Katkılarınız memnuniyetle karşılanır! Lütfen önce bir "Issue" açarak neyi değiştirmek istediğinizi tartışın.
