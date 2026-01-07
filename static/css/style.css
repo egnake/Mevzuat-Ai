@@ -713,8 +713,8 @@ body {
     }
 }
 .hata {
-    color:#80848a;
+    color: var(--error);
+    font-size: 0.85rem;
     text-align: center;
-    margin-top: -10px;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
