@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+chroma_db/
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

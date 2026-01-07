@@ -1,0 +1,23 @@
+# Mevzuat-AI Dependencies
+# =======================
+
+# Web Framework
+flask>=3.0.0
+werkzeug>=3.0.0
+
+# LangChain & AI
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+langchain-text-splitters>=0.0.1
+
+# Vector Store & Embeddings
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document Processing
+pypdf>=3.0.0
+
+# Utilities
+huggingface-hub>=0.20.0
+tf-keras>=2.15.0

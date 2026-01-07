@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mevzuat-AI | Türk Hukuku Asistanı</title>
+    <meta name="description"
+        content="Yerel ve güvenli Türk hukuku asistanı. PDF belgelerinizi yükleyin ve sorularınızı sorun.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-content">
+                <!-- Brand -->
+                <div class="brand">
+                    <div class="brand-icon">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <div class="brand-text">
+                        <h1>Mevzuat-AI</h1>
+                        <p>Hukuk Belge Asistanı</p>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Upload Section -->
+                <div class="section">
+                    <div class="section-label">Belge Yükleme</div>
+                    <div class="upload-zone" id="uploadZone">
+                        <div class="upload-icon">
+                            <i class="fa-regular fa-file-pdf"></i>
+                        </div>
+                        <p>PDF dosyalarınızı sürükleyin</p>
+                        <span>veya</span>
+                        <label class="upload-btn">
+                            Dosya Seç
+                            <input type="file" id="fileInput" multiple accept=".pdf" hidden>
+                        </label>
+                    </div>
+
+                    <div class="file-list" id="fileList"></div>
+
+                    <button class="btn-primary" id="analyzeBtn" disabled>
+                        <span class="btn-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        Belgeleri Analiz Et
+                    </button>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- System Info -->
+                <div class="section">
+                    <div class="section-label">Sistem Bilgileri</div>
+                    <div class="info-card">
+                        <div class="info-row">
+                            <span class="info-label"><i class="fa-solid fa-microchip"></i> Model</span>
+                            <span class="info-value" id="modelName">jarvis</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label"><i class="fa-solid fa-arrows-split-up-and-left"></i> Chunk</span>
+                            <span class="info-value" id="chunkSize">1000</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label"><i class="fa-solid fa-list-ol"></i> Top-K</span>
+                            <span class="info-value" id="topK">4</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Status -->
+                <div class="status-indicator">
+                    <div class="status-dot"></div>
+                    <span>Yerel mod aktif</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="main-wrapper">
+                <!-- Header -->
+                <header class="main-header">
+                    <h1>Mevzuat-AI</h1>
+                    <p>Türk Hukuku Asistanı — Yerel • Güvenli • Gizli</p>
+                </header>
+
+                <!-- Chat Container -->
+                <div class="chat-container" id="chatContainer">
+                    <!-- Welcome Screen -->
+                    <div class="welcome-screen" id="welcomeScreen">
+                        <div class="welcome-icon">
+                            <i class="fa-solid fa-scale-balanced"></i>
+                        </div>
+                        <h2>Hoş Geldiniz</h2>
+                        <p>Hukuki belgelerinizi yükleyin ve sorularınızı sorun</p>
+
+                        <div class="steps-grid">
+                            <div class="step-card">
+                                <div class="step-number">1</div>
+                                <div class="step-title">Yükle</div>
+                                <div class="step-desc">PDF belgelerinizi sol panelden yükleyin</div>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number">2</div>
+                                <div class="step-title">Analiz</div>
+                                <div class="step-desc">Belgeleri analiz edin</div>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number">3</div>
+                                <div class="step-title">Soru</div>
+                                <div class="step-desc">Sorularınızı yazın</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Messages Area -->
+                    <div class="messages" id="messages"></div>
+                </div>
+
+                <!-- Chat Input -->
+                <div class="chat-input-container">
+                    <div class="chat-input-wrapper">
+                        <input type="text" id="chatInput" placeholder="Sorunuzu yazın..." autocomplete="off">
+                        <button class="send-btn" id="sendBtn" disabled>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <p id="loadingText">Yükleniyor...</p>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+
+</html>
