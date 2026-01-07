@@ -90,3 +90,5 @@ Katkılarınız memnuniyetle karşılanır! Lütfen önce bir "Issue" açarak ne
 ## 📄 Lisans
 
 Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
+
+## Mevzuat Ai hata yapabilir,cevapları kontrol edin!
